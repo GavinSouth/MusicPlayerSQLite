@@ -16,6 +16,7 @@ Im using a relational SQLite database I appropriately named `dbo`
 The database has two tables:
 
 `TABLE music_library (song_id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, artist TEXT,  file TEXT)`
+
 `TABLE user_profiles (u_id TEXT, fname TEXT, lname TEXT, genre TEXT, fav_song INT)`
 
 These tables can be joined on a common variable which is the song indexes primary key. 
@@ -38,4 +39,5 @@ Microsoft™ Visual Studio Code
 # Future Work
 
   [ ] Album art, lyrics, song info? Consider data types in SQL then a django web-app.
+  
   [ ] Display album art. Maybe need to do a django web-app. 
