@@ -33,11 +33,13 @@ Microsoft™ Visual Studio Code
 # Useful Websites
 
 >[Random Documentation](https://docs.python.org/3/library/random.html)
- [Playsound Documentation](https://pypi.org/project/playsound/)
- [SQLite Documentation](https://docs.python.org/3/library/sqlite3.html)
+
+>[Playsound Documentation](https://pypi.org/project/playsound/)
+
+>[SQLite Documentation](https://docs.python.org/3/library/sqlite3.html)
 
 # Future Work
 
   [ ] Album art, lyrics, song info? Consider data types in SQL then a django web-app.
-  
+
   [ ] Display album art. Maybe need to do a django web-app. 
