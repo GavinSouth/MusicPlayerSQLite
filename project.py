@@ -5,17 +5,6 @@
 # ——————————————————————————————————————————————————————————————————————————————————————————————————————— ####
 # SQL stuff
 
-connection = sqlite3.connect('dbo.db')
-cursor = connection.cursor()
-cursor.execute("SELECT * FROM user_profiles")
-results = cursor.fetchall()
-connection.close()
-
-print(results)
-
-results[0][1]
-len(results)
-
 # My login
 # AXGHY
 # others
