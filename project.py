@@ -89,7 +89,7 @@ def edit_user(current_user, connection):
     print("Enter new genre choice: \n")
     genre = input("  -> ")
     print("Enter new favorite song: \n")
-    print_song_list()
+    music_library(connection)
     fav_song =  input("  -> ")
     values = (fname, lname, genre, fav_song, current_user[0][0])
     cursor.execute("""UPDATE user_profiles 
