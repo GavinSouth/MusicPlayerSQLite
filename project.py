@@ -3,9 +3,7 @@
 #' Instructions:
 #'   Run everything, then run main(). After that the program will run until the user exits. 
 # ——————————————————————————————————————————————————————————————————————————————————————————————————————— ####
-# SQL stuff
-
-# My login
+# User DBO Login Users:
 # AXGHY
 # others
 # PXYWO
@@ -20,7 +18,6 @@ from playsound import playsound # Note: playsound(, False) if you want to do thi
 
 # ——————————————————————————————————————————————————————————————————————————————————————————————————————— ####
 # Users : ALL WORKING
-
 class user:
     def __init__(self, connection):
         self.u_id = ''.join(random.choice(string.ascii_uppercase) for i in range(5))
@@ -135,7 +132,6 @@ def delete_user(current_user, connection):
 
 # ——————————————————————————————————————————————————————————————————————————————————————————————————————— ####
 #' Music Library : ALL WORKING
-
 class song:
     def __init__(self):
         print("Song title: \n") 
@@ -220,7 +216,6 @@ def search_song(current_user, connection):
             results[i - 1][2], "\n")
             playsound("sample_length_music/" + results[i - 1][3])
         menu(current_user, connection)
-            
 
 # ——————————————————————————————————————————————————————————————————————————————————————————————————————— ####
 # Display Menu : Working
@@ -245,7 +240,6 @@ def menu(current_user, connection):
     elif int(a) == 5:
         connection.close()
         exit()
-
 
 # ——————————————————————————————————————————————————————————————————————————————————————————————————————— ####
 # Main : Working
