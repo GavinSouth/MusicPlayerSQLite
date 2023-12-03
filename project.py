@@ -1,7 +1,7 @@
 #' Simple local Spotify™
 #' DS: Gavin South
 #' Instructions:
-#'   Run everything, then main(). The program is intuitive and will guide you after that.
+#'   Run everything, then run main(). After that the program will run until the user exits. 
 # ——————————————————————————————————————————————————————————————————————————————————————————————————————— ####
 # SQL stuff
 
